@@ -50,6 +50,7 @@
 
 $font-fam: "sans-serif";
 $bg-pri: #f8f9fa;
+$bg-sec: #343A40;
 
 * {
   margin: 0;
@@ -63,5 +64,47 @@ html {
 
 body {
   font-family: $font-fam;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
 }
 
+header {
+  background-color: $bg-pri;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.header-block {
+  flex: 1;
+}
+
+.logo {
+  width: 10rem;
+  padding: 1rem 0 1rem 0;
+}
+
+section {
+  flex-grow: 1;
+  padding: 2rem 2rem 2rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+footer {
+  background-color: $bg-sec;
+  a {
+    color: #CAD0D6;
+  }
+}
+
+.footer-links {
+  display:flex;
+  justify-content: space-around;
+  max-width: 20rem;
+  padding: 5rem 0 5rem 0;
+  margin: auto;
+}
