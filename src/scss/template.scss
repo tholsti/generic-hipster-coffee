@@ -48,6 +48,8 @@
 // own styles (feel free to add more)
 @import "base";
 
+// template css to be used across site but on individual css files
+
 $font-fam: "Arsenal";
 $bg-pri: #f8f9fa;
 $bg-sec: #343a40;
@@ -126,11 +128,6 @@ section {
   margin: auto;
 }
 
-.landing {
-  img {
-    max-width: 100vw;
-  }
-}
 
 footer {
   background-color: $bg-sec;

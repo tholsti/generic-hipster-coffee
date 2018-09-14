@@ -1,30 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="index.css" />
-  <title>Bootstrap with SCSS template</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Template for Generic Coffee</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+  <link href="https://fonts.googleapis.com/css?family=Arsenal:regular,italic,700,700italic" rel="stylesheet" />
+  <script src="main.js"></script>
 </head>
+
 <body>
-  <div class="container text-center">
-    <h1>Landing page</h1>
-    <img 
-      class="img-fluid" 
-      src="/img/bootstrap-stack.png" 
-      alt="Bootstrap stack" 
-    />
-  </div>
-  
-  <script 
-    src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-  ></script>
-  <script 
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
-  ></script>
+  <header>
+    <div class="header-block left">
+      <img class="logo" src="/img/logo.svg" alt="">
+    </div>
+    <div class="header-block">
+         
+        <nav class="navbar right navbar-expand">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="/index.html">Home</a>
+                <a class="nav-item nav-link" href="/menu.html">Menu</a>
+                <a class="nav-item nav-link" href="/coffee.html">Coffee</a>
+                <a class="nav-item nav-link " href="/story.html">Our Story</a>
+              </div>
+          </nav>
+
+    </div>
+  </header>
+
+  <section class="landing">
+    <h1>GENERIC HIPSTER COFFEE</h1>
+    <h2>Specialty coffee, fresh food & local community. </h2>
+    <img src="/img/counter.jpg" alt="">
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a class=" active" href="/index.html">Home</a>
+                <a class="" href="/menu.html">Menu</a>
+                <a class="" href="/coffee.html">Coffee</a>
+                <a class=" " href="/story.html">Our Story</a>
+    </div>
+    <div class="bold">#HIPSTERSMAKECOFFEE</div>
+    Follow us on <a href="#">Twitter</a> and <a href="#">Instagram</a>.
+    <br>
+
+  </footer>
+
 </body>
+
 </html>
