@@ -47,3 +47,21 @@
 
 // own styles (feel free to add more)
 @import "base";
+
+$font-fam: "sans-serif";
+$bg-pri: #f8f9fa;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: $font-fam;
+}
+
