@@ -126,13 +126,31 @@ section {
   padding: 2rem 1rem 2rem 1rem;
   max-width: 1000px;
   margin: auto;
-  font-size:4px;
-
   .smaller {
-    font-size: .5rem !important;
+    font-size: 0.75rem;
   }
 }
 
+.card {
+  border-radius: 0;
+  max-width: 20rem;
+  margin:0 auto 1rem auto;
+  h4 {
+    background-color: $bg-pri;
+    text-transform: uppercase;
+  }
+  .card-body {
+    padding: 0;
+  }
+  .card-title {
+    margin: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+  .card-text {
+    background-color: $bg-pri;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+}
 
 footer {
   background-color: $bg-sec;
@@ -164,4 +182,3 @@ footer {
     color: black;
   }
 }
-
